@@ -5,8 +5,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
     },
     colors: {
       background: '#1f242d',
@@ -17,7 +17,11 @@ export default {
       gradientGreenEnd: '#38ff14'
 
     },
-    extend: {},
+    extend: {
+      animation: {
+        bounce: '1s'
+      }
+    },
   },
   plugins: [],
 }
